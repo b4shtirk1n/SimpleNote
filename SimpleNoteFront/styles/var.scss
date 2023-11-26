@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+$bg: #373737;
+$font: #c1c1c1;
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

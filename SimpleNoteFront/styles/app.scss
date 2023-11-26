@@ -1,5 +1,19 @@
+@import "var.scss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  background-color: $bg;
+  color: $font;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
